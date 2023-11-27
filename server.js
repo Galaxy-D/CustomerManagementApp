@@ -136,7 +136,7 @@ console.log('Express listening on port ' + port);
 
 var opn = require('opn');
 
-opn('http://localhost:' + port).then(() => {
+opn('https://customermanagementapp.netlify.app').then(() => {
     console.log('Browser closed.');
 });
 
